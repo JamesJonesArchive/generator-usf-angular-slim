@@ -58,5 +58,8 @@ var USFAngularSlimGenerator = module.exports = yeoman.generators.Base.extend({
     this.installDependencies({
       skipInstall: this.options['skip-install']
     });
+  },
+  testMethod: function() {
+    this.composeWith('angular', {});
   }
 });
