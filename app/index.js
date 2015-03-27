@@ -20,7 +20,7 @@ module.exports = yeoman.generators.Base.extend({
       type: 'confirm',
       name: 'someOption',
       message: 'Would you like to enable this option?',
-      default: true
+      'default': true
     }];
 
     this.prompt(prompts, function (props) {
