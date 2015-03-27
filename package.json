@@ -1,0 +1,33 @@
+{
+  "name": "generator-usf-angular-slim",
+  "version": "0.0.0",
+  "description": "Generator for USF webtoken angular with PHP Slim",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "jamjon3/generator-usf-angular-slim",
+  "author": {
+    "name": "James Jones",
+    "email": "jamjon3@gmail.com",
+    "url": "https://github.com/jamjon3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.9",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
